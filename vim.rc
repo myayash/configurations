@@ -1,0 +1,39 @@
+  1 " Enable syntax highlighting
+  2 syntax on
+  3 
+  4 " Show line numbers
+  5 set number
+  6 
+  7 " Enable smart auto-indentation
+  8 set smartindent
+  9 set autoindent
+ 10 
+ 11 " Highlight matching brackets
+ 12 set showmatch
+ 13 
+ 14 " Use 4 spaces instead of tabs
+ 15 set tabstop=4
+ 16 set shiftwidth=4
+ 17 set expandtab
+ 18 
+ 19 " Enable search highlighting and incremental search
+ 20 set hlsearch
+ 21 set incsearch
+ 22 
+ 23 " Ignore case when searching
+ 24 set ignorecase
+ 25 
+ 26 " Keep the cursor off the very bottom/top of the screen
+ 27 set scrolloff=5
+ 28 
+ 29 " Set netrw to use tree view by default
+ 30 let g:netrw_liststyle = 3
+ 31 
+ 32 " Open files in the previous window (keeps the tree sidebar open)
+ 33 let g:netrw_browse_split = 4
+ 34 
+ 35 " Set the sidebar width to 25% of the screen
+ 36 let g:netrw_winsize = 25
+ 37 
+ 38 " Toggle sidebar mapping using Ctrl+n
+ 39 nnoremap <C-n> :Lexplore<CR>
