@@ -37,3 +37,4 @@
  37 
  38 " Toggle sidebar mapping using Ctrl+n
  39 nnoremap <C-n> :Lexplore<CR>
+~                                           
